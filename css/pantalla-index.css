@@ -1,0 +1,118 @@
+#mas {
+    color: #fff;
+}
+
+#menos {
+    color: #fff;
+}
+
+#mas:hover {
+    text-decoration: none;
+}
+
+#menos:hover {
+    text-decoration: none;
+}
+
+.contenedor_ofertas img {
+    width: 75%;
+    font-size: 25%;
+}
+
+.contenedor_ofertas {
+    /* background: #1D2B39; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-image: url(../img/banner1_movil.jpg);
+    /* para adaptarse al cotnenedor */
+    background-size: cover;
+    height: 90vh;
+    background-position: 23%r;
+}
+
+.contenedor_ofertas .contenerdor_texto_ofertas {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 72%;
+    color: #fff;
+}
+
+.fondo-formulario4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    background-color: #1D2B39;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.fondo-formulario4 .fondo-formulario3 .fuente1 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.fondo-formulario4 .fondo-formulario3 .fuente {
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.formulario .escribe-formulario1 {
+    border: 1px solid #3F566C;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    padding: 5px;
+    width: 100%;
+    height: 45px;
+}
+
+
+/*responsive*/
+
+@media(min-width:768px) {
+    .formulario .escribe-formulario1 {
+        width: 75%;
+    }
+    .fondo-formulario4 {
+        height: 500px;
+    }
+    .fondo-formulario4 .fondo-formulario3 {
+        margin-bottom: 10%;
+    }
+    .formulario .escribe-formulario1 {
+        width: 100%;
+        height: 35%;
+    }
+    .contenedor_ofertas img {
+        margin-top: 245px;
+        margin-bottom: 10px;
+        width: 50%;
+        font-size: 25%;
+    }
+    .contenedor_ofertas {
+        /* background: #1D2B39; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(../img/banner1_movil.jpg);
+        /* para adaptarse al cotnenedor */
+        background-size: cover;
+        height: 90vh;
+        background-position: 23%r;
+    }
+}
+
+@media(min-width:1024px) {
+    .contenedor_ofertas img {
+        width: 35%;
+        font-size: 25%;
+    }
+}

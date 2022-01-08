@@ -1,0 +1,12 @@
+#clock {
+    text-align: center;
+    font-family: Poppins-Medium;
+    color: #fff;
+    background: linear-gradient(to right, #00367dbd, #00377d, #00377d, #00377d, #00377d, #00377d, #00377d, #00377d, #00377d, #00377d, #00367dbd);
+}
+
+@media (min-width: 1024px) {
+    #clock {
+        background: linear-gradient(to right, transparent, #5b3d6e13, #00377d, #00377d, #00377d, #00377d, #00377d, #00377d, #00377d, #5b3d6e13, transparent;
+    }
+}

@@ -1,0 +1,118 @@
+.footer {
+    background: transparent url('../img/capa26.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    padding: 20px;
+}
+
+.redes-sociales {
+    margin-top: 16px;
+}
+
+.footer-texto {
+    margin-top: 16px;
+    color: #7A809B;
+    font-family: Montserrat-SemiBold;
+}
+
+.imagen-footer {
+    width: 200px;
+}
+
+.azul {
+    width: 50px;
+    display: inline-block;
+    height: 4px;
+    background: #004295;
+    padding: 0;
+    margin: 0;
+}
+
+.fotter-li {
+    list-style: none;
+}
+
+.flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.footer-legales {
+    font-family: Montserrat-ExtraBold;
+}
+
+@media (min-width: 544px) {
+    .redes-sociales {
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor-imagen-texto-footer {
+        margin-top: 20px;
+    }
+    .imagen-footer {
+        width: 250px;
+    }
+    .footer-texto {
+        font-size: 20px;
+    }
+    .footer-legales {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 800px) {
+    .contenedor-imagen-texto-footer {
+        margin-top: 20px;
+    }
+    .imagen-footer {
+        width: 300px;
+    }
+    .footer-texto {
+        font-size: 24px;
+    }
+    .footer-legales {
+        font-size: 45px;
+        text-align: center;
+    }
+    .redes-sociales {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .redes-sociales {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    .redes-sociales {
+        justify-content: start;
+    }
+    .lista-footer {
+        padding: 0;
+    }
+    .footer3 {
+        max-width: 1000px;
+        margin: auto;
+    }
+    .imagen-footer {
+        width: 166px;
+    }
+    .footer-texto {
+        font-size: 12px;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .footer-legales {
+        font-size: 22px;
+        text-align: start;
+        font-weight: bold;
+    }
+    .contenedor-imagen-texto-footer {
+        width: 33%;
+    }
+    .footer1 {
+        display: flex;
+    }
+}

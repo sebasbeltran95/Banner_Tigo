@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Internet Tigo Hogar</title>
+    <link rel="stylesheet" href="css/contador.css">
+    <link rel="stylesheet" href="css/fuente.css">
+    <link rel="stylesheet" href="css/pantalla-index.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/particle-js.css">
+    <link href="css/gaia.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/barra-navegacion-index.css">
+    <link rel="icon" type="image/png" href="img/logo-tigo.webp">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="electrodomesticos,Lagobo,oportunidades,tecnología,colchones,linea hogar,seguridad y tecnologia,proyectores,transporte,motos,jugueteria,sistema de audio profesional">
+    <meta name="description" content="Lagobo Distribuciones comercializa a través de sus diferentes canales (tienda virtual, canal institucional, mayoreo, convenios y fondos de empleados) el más grande portafolio de productos electrodomésticos, tecnología, colchones y línea hogar de las mejores y más reconocidas marcas del mercado, como: Samsung, LG, Sony, Mabe, Centrales, Haceb, Whirpool, HP, Lenovo, Huawei, Spring.">
+    <meta name="author" content="Sebastian Beltran Zapata">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="./js/menu.js "></script>
+    <script defer src="./js/contador.js "></script>
+    <script defer src="./js/leer.js "></script>
+
+
+
+
+</head>
+
+<body>
+    <!-- barra de navegacion -->
+
+
+    <div class="hamburguesa">
+        <div class="imagen-menu">
+            <a href="index.html">
+                <img class="imagen-lagobo" src="img/logo-tigo.webp" alt="Logo tigo une" style="width: 60px;">
+            </a>
+        </div>
+        <div class="hamburger">
+            <div class="_layer -top cerrar"></div>
+            <div class="_layer -mid "></div>
+            <div class="_layer -bottom"></div>
+        </div>
+    </div>
+    <nav class="menuppal">
+        <ul class="bajar">
+            <li><a href="index.html">Hogar</a></li>
+            <li><a href="nosotros.html">Movil</a></li>
+            <li><a href="convenios.html">Full_Tigo</a></li>
+            <li>
+                <a href="tel:018000415196" class="contactenos-buton" style="background-color: #fff;color: #000;">Linea_Nacional</a>
+            </li>
+            <li>
+                <a href="tel:6017946549" class="contactenos-buton" style="background-color: #fff;color: #000;">Linea_Fija</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- en este linea se hace para que la libreria particulas no afecte el nav  style="z-index: 10 !important; position: relative;"-->
+    <nav class="conteiner-menu back cabecera " style="z-index: 10 !important; position: relative;">
+        <div class="items-menu back1 ">
+            <div class="imagen-menu ">
+                <a href="index.html ">
+                    <img class="imagen-lagobo " src="img/logo-tigo.webp" alt="Logo tigo une " style="width: 100px;">
+                </a>
+            </div>
+            <div class="container-icon-button ">
+                <div>
+                    <p>Menú</p>
+                </div>
+                <button class="item-icon-botoon " type="button ">
+                    <i class="fas fa-align-justify icon-menu " style="color: #fff; "></i>
+                </button>
+            </div>
+        </div>
+        <div class="conteiner-menu-item back2 ">
+            <ul class="lista-menu ">
+                <li class="lista-menu1 ">
+                    <a href="index.html " class="ancla-menu ">Hogar</a>
+                </li>
+                <li class="lista-menu1 ">
+                    <a href="nosotros.html " class="ancla-menu ">Movil</a>
+                </li>
+                <li class="lista-menu1 ">
+                    <a href="convenios.html" class="ancla-menu ">Full_Tigo</a>
+                </li>
+                <li class="lista-menu1 ">
+                    <a href="tel:018000415196" class="ancla-menu1 ">Linea_Nacional</a>
+                </li>
+                <li class="lista-menu1 ">
+                    <a href="tel:6017946549" class="ancla-menu1 ">Linea_Fija</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- barra de navegacion -->
+
+    <!-- contador -->
+    <div id="clock"></div>
+    <!-- contador -->
+
+
+
+
+
+    <!-- contenedor 1 -->
+    <div class="contenedor1">
+        <div>
+            <div class="contenedor_ofertas">
+                <img src="img/1.png" alt="ofertas" class="ofertas">
+                <div class="contenerdor_texto_ofertas parrafo">
+                    <p class="texto_ofertas">
+                        Válido hasta el 31 de enero de 2022. Oferta empaquetada Duo Play con Internet de 100 Megas y velocidad final de navegación de 200 megas por 12 meses + Telefonía fija local ilimitada con el 100% de descuento.
+                        <a href="#" onclick="vermas('mas');" id="mas">... [leer más]</a>
+                    </p>
+                    <p class="texto_ofertas" id="desplegar" style="display:none;">
+                        Sujeto a disponibilidad técnica. Valor de referencia del paquete con descuento del 30% por 12 meses sobre la tarifa plena. Tarifa sujeta a incrementos establecidos en el contrato. Podría aplicar impuesto telefónico de tu municipio. Servicios fijos prestados
+                        por UNE TELCO. Mas info www.tigo.com.co
+                        <a href="#" onclick="vermas('menos');" id="menos">... [leer menos]</a>
+                    </p>
+                </div>
+            </div>
+            <div class="fondo-formulario4">
+                <div class="fondo-formulario3">
+                    <h2 class="titulo-formulario fuente"> Te Llamamos</h2>
+                    <h3 class="titulo-formulario1 fuente1">¡Prueba la red que te libera!</h3>
+                </div>
+                <form class="formulario" action="php/enviar.php" method="POST" enctype="multipart/form-data">
+                    <input class="escribe-formulario1" type="text" name="nombre" placeholder="Tu Nombre" required>
+                    <input class="escribe-formulario1" type="number" name="direccion" placeholder="Tu Movil" required>
+                    <br>
+                    <div class="checkbox">
+                        <input type="checkbox" name="condiciones" class="checkbox1" required><label>
+                                <a href="#" class="acepto" data-toggle="modal" data-target="#modal1">Acepto las Políticas de protección de datos personales</a> 
+                            </label>
+                    </div>
+
+                    <input type="submit" value="Estioy Interesado" id="boton">
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- modal1 -->
+    <!-- The Modal -->
+    <div class="modal fade" id="modal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title fuente titulo_modal1">Políticas de Privacidad</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body fuente1 texto_modal1">
+                    Doy mi consentimiento previo, expreso e informado a Colombia Móvil S.A. E.S.P, UNE EPM Telecomunicaciones S.A, EDATEL S.A. en adelante Las Compañías, para que recolecte, almacene, suministre, procese, utilice y transfiera a terceros información relativa
+                    a mis datos personales para fines del servicio y comerciales, la prevención y control de fraudes y consultar listas internacionales expedidas por el Consejo de Seguridad de las Naciones Unidas y las demás que tengan carácter vinculante
+                    para Colombia. <br> <br> Como titular de la información usted tiene derecho a conocer, actualizar, rectificar sus datos personales, solicitar prueba de la autorización otorgada, ser informado sobre el uso dado a
+                    los mismos, presentar quejas ante la SIC por infracción a la ley, revocar la autorización y/o solicitar la supresión de sus datos cuando sea procedente y acceder en forma gratuita a los mismos. <br> <br> Colombia Móvil S.A. E.S.P.,
+                    tiene como domicilio principal la ciudad de Bogotá en la. Avenida Calle 26 No. 92-32 Mod G1 Tel: 4435000, Une EPM Telecomunicaciones tiene domicilio principal en Medellín, dirección Carrera 16 No. 11 A Sur 100 Tel. 5150505, Edatel
+                    S.A. Calle 41 No. 52-28 Piso 18 Carrera 48 No. 20-114 Torre 3 Medellín. La política de tratamiento de los datos así como el aviso de privacidad los podrá encontrar en nuestra página web www.tigo.com.co, www.edatel.com.co. este de datos
+                    personales acuérdate que va en el formulario.
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- modal1 -->
+    <!-- contenedor 1 -->
+
+
+
+
+
+
+
+
+</body>
+
+</html>
